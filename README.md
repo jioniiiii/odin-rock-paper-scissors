@@ -1,3 +1,5 @@
 odin rps-ui 
 
-do quality of life like anoucning winner
+take aways:
+  1-learned dom manipulation
+  2-learned how to wtite better code (javascript)
