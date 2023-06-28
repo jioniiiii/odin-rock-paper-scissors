@@ -4,13 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
     <title>Document</title>
 </head>
 <body>
-    <button id="btnRock">Rock</button>
-    <button id="btnPaper">Paper</button>
-    <button id="btnScissors">Scissors</button>
-    <button id="btnAgain">Play again</button>
+    <!--score-->
+    <div class="back">
+      <div class="container1">
+          <div class="score" id="result">
+            <p id="win"></p>
+            <p id="lose"></p>
+            <p id="tie"></p>
+          </div>  
+      </div>
+      <div class="container">
+          <div class="score" id="final">
+              <table class="space">
+                  <tr>
+                    <th colspan="3">Scoreboard</th>
+                  </tr>
+                  <tr>
+                    <td id="You">You</td>
+                    <td id="round">Round</td>
+                    <td id="computer">Computer</td>
+                  </tr>
+                  <tr>
+                    <td id="humanScore">0</td>
+                    <td id="roundCounter">0</td>
+                    <td id="cpuScore">0</td>
+                  </tr>
+              </table>
+          </div>
+      </div>
+    </div>
+    <!--buttons-->
+    <div id="buttonContainer" class="button-container">
+        <div id="button1" class="button-div">
+          <button class="btn" id="btnStart">Start</button>
+        </div>
+        <div id="button2" class="button-div">
+            <button class="btn" id="btnRock">Rock</button>
+            <button class="btn" id="btnPaper">Paper</button>
+            <button class="btn" id="btnScissors">Scissors</button>
+        </div>
+        <div id="button3" class="button-div">
+          <button class="btn-again" id="btnAgain">Play again</button>
+        </div>
+      </div>
     <script src="rock-paper-scissors.js"></script>
 </body>
 </html>

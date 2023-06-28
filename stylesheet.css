@@ -1,0 +1,100 @@
+.button-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  
+  .button-div {
+    position: absolute;
+    display: block;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+
+.btn{
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #7e7573;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+}
+  
+.btn-again{
+    padding: 10px 20px;   
+    font-size: 16px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #7e7573;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+ 
+.btn-again:hover {
+    background-color: #e22020;
+}
+
+.score{
+    width: 350px;
+    height: 125px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #7e7573;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    height: 75px;
+}
+
+#result{
+    border-radius: 10px 10px 0 0;
+    padding-top: 25px;
+}
+
+#final{
+    border-radius:  0 0 10px 10px;
+}   
+
+.score{
+    display: flex;
+    justify-content: center;
+}
+
+.space{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .space th,
+  .space td {
+    padding: 10px;
+    text-align: center;
+    width: 33.33%;
+  }
+  
